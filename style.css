@@ -8,6 +8,10 @@ body{
     margin: 0px;
 }
 
+p{
+    font-size: 15px;
+}
+
 #start, #detected, #status{
     font-size: 18px;
 }
