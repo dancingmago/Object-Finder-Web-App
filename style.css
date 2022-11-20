@@ -8,8 +8,13 @@ body{
     margin: 0px;
 }
 
-p{
+span{
+    font-size: 17px;
+}
+
+label{
     font-size: 15px;
+    color: white;
 }
 
 #start, #detected, #status{
