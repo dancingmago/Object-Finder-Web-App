@@ -1,6 +1,6 @@
 
 objects = [];
-status = "";
+status1 = "";
 
 
 function setup() {
@@ -13,7 +13,7 @@ function setup() {
 
 function modelLoaded() {
   console.log("Model Loaded!")
-  status = true;
+  status1 = true;
 }
 
 function start()
@@ -33,7 +33,7 @@ function gotResult(error, results) {
 
 function draw() {
   image(video, 0, 0, 380, 380);
-      if(status != "")
+      if(status1 != "")
       {
         objectDetector.detect(video, gotResult);
         for (i = 0; i < objects.length; i++) {
